@@ -75,6 +75,15 @@ h2 {
     margin-bottom: 20px; 
     margin-top: 0;
 }
+
+h3 {
+    color: grey;
+    padding-bottom: 5px;
+    margin-bottom: 20px; 
+    margin-top: 0;
+    text-align: center;
+}
+
 ul {
     list-style-type: none;
     padding: 0;
@@ -129,3 +138,22 @@ img {
     text-decoration: none;
     color: #fff;
 }
+
+#major-list ul {
+    list-style-type: disc;
+    margin-left: 20px;
+}
+
+#major-list ul li {
+    margin-bottom: 5px;
+}
+
+#class-list ul {
+    list-style-type: square;
+    margin-left: 20px;
+}
+
+#class-list ul li {
+    margin-bottom: 5px;
+}
+
