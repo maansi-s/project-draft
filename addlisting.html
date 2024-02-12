@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Add Book Listing - UW Study Buddy</title>
+    <link href="css/style.css" rel="stylesheet" />
+    <style>
+        h1 {
+            text-align: center;
+        }
+
+        .listing-form {
+            max-width: 600px;
+            margin: 0 auto;
+        }
+
+        label {
+            display: block;
+            margin-bottom: 8px;
+        }
+
+        input, textarea {
+            width: 100%;
+            padding: 8px;
+            margin-bottom: 16px;
+            box-sizing: border-box;
+        }
+
+        button {
+            font-size: 16px;
+            padding: 10px 20px;
+            background-color: #4285f4;
+            color: #ffffff;
+            border: none;
+            border-radius: 5px;
+        }
+    </style>
+</head>
+
+<body>
+    <section id="add-listing">
+        <h1>Add Book Listing</h1>
+
+        <div class="listing-form">
+            <!-- Will add form link later -->
+                <label for="title">Title:</label>
+                <input type="text" id="title" name="title" required>
+
+                <label for="image">Upload Image:</label>
+                <input type="file" id="image" name="image" accept="image/*">
+
+                <label for="author">Author:</label>
+                <input type="text" id="author" name="author">
+
+                <label for="isbn">ISBN:</label>
+                <input type="text" id="isbn" name="isbn">
+
+                <label for="description">Description:</label>
+                <textarea id="description" name="description" rows="4"></textarea>
+
+                <label for="price">Price:</label>
+                <input type="text" id="price" name="price">
+
+                <button type="submit">Submit Listing</button>
+            
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 UW Study Buddy App. All rights reserved.</p>
+    </footer>
+</body>
+
+</html>
